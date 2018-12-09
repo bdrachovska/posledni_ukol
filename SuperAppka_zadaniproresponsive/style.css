@@ -26,7 +26,7 @@ body {
 }
 
 .obal {
-    width: 960px; /* obsah stránky je omezený do pruhu širokého 960px */
+    max-width: 960px; /* obsah stránky je omezený do pruhu širokého 960px */
     margin: 0 auto; /* pruh je na stránce vycentrovaný */
     background: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -167,22 +167,16 @@ footer {
 }
 
 @media (max-width: 760px){
-    header {
-        font-size: 20px;
+    header{
+        font-size: 25px;
     }
     .tlacitka {
         display: flex;
         flex-direction: column;
-        font-size: 20px;
+        font-size: 25px;
     }
-    .obsah {
+    .obsah ul {
+        display: flex;
         flex-direction: column;
     }
-   
-}
-@media (min-width: 761px) and (max-width: 1050){
-    .obsah {
-        flex-direction: column;
-    }
-   
-}
+   }
