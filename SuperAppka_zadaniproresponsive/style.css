@@ -183,10 +183,7 @@ footer {
         margin: 1em 1em;
     }
     
-    .tlacitko tlacitko-fialove a {
-        margin: 10px;
-    }
-    .obsah {
+        .obsah {
         display: flex;
         flex-direction: column;
     }
